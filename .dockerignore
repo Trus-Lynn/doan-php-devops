@@ -21,3 +21,5 @@ node_modules
 # Nếu có file backup
 *.bak
 *.tmp
+# Loại bỏ frontend assets nặng (có thể thêm lại sau)
+admin/assets/*
