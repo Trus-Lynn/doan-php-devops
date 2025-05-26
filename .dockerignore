@@ -1,11 +1,23 @@
+# Bỏ thư mục rác
 .git
+.vscode
+.idea
+.DS_Store
+__MACOSX
+
+# Bỏ file không liên quan tới app
 *.zip
 *.rar
 *.tar
-node_modules
-.idea
-.vscode
-.DS_Store
-__MACOSX
-*.md
 *.pdf
+*.docx
+*.xlsx
+*.pptx
+*.md
+
+# Nếu có node_modules
+node_modules
+
+# Nếu có file backup
+*.bak
+*.tmp
